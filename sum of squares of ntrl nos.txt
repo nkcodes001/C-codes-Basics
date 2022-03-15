@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int n,sum;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    if(n>0)
+{     sum=(n*(n+1)*((2*n)+1))/6;
+    printf("Sum of the Squares of the first %d Positive Integers :%d  ",n,sum);
+}
+else
+{printf("Please enter natural numbers");
+}
+return 0;
+}
+    

@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+int n,r,i,fact,temp,sum=0;
+printf("enter the number=");
+scanf("%d",&n);
+temp=n;
+while(n>0)
+{
+    r=n%10;
+    fact=1;
+    for(i=r;i>=1;i--)
+    {
+        fact=fact*i;
+    }
+    sum=sum+fact;
+    n/=10;
+}
+
+//strong number
+
+145=1!+4!+5!==145=120+24+1==145
